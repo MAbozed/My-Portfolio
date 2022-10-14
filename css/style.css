@@ -1207,11 +1207,16 @@ footer a {
     position: absolute;
   }
   .home-container .home-img img {
-    width: 65%;
-    transform: translate(80px, -180px);
+    display: none;
   }
   .home .home-container .info {
     font-size: 0.8rem;
+  }
+   .home .home-container .media-icons {
+    display: none;
+  }
+  .home .scroll-down {
+    display: none;
   }
   .media-icons{
     margin-bottom: 80px;
