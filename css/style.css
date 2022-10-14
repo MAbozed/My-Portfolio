@@ -1206,20 +1206,21 @@ footer a {
   .home-container .home-img {
     position: absolute;
   }
-  .home-container .home-img img {
-    display: none;
+  .home-container .home-img img{
+   width: 50%;
+   transform: translate(80px, -180px);
   }
-  .home .home-container .info {
+  .media-icons {
+    margin-bottom: 80px;;
+  }
+  .home-container .info {
     font-size: 0.8rem;
   }
-   .home .home-container .media-icons {
-    display: none;
+  .home-container .info h2{
+    font-size: 2rem;
   }
-  .home .scroll-down {
+  .scroll-down {
     display: none;
-  }
-  .media-icons{
-    margin-bottom: 80px;
   }
   /*=======Get-in-touch section=======*/
   .get-in-touch .contact-card {
