@@ -1200,6 +1200,9 @@ footer a {
   }
 
   /*=======Home section=======*/
+  .home {
+     min-width: 200px;
+  }
   .home .home-container {
     display: grid;
   }
